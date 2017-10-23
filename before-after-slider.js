@@ -2,7 +2,7 @@
     
        $.fn.hanBeforeAfterSlider = function(c) {
             //console.log(c);
-            var point = c.width/2;
+            var point = parseInt(c.width)/2;
             $(this).css("width",c.width);
             $(this).css("height",c.height);
             $(this).css("margin","0 auto");
@@ -22,15 +22,17 @@
             $(i2).css({
                 "background-image":"url("+c.secondImage+")",
                 "background-size":"cover",
-                "width":c.width,
+                "width":point+"px",
                 "height":c.height,
                 "position":"absolute",
                 "background-repeat": "no-repeat",
-                "background-position-x": 200+"px",
+                "border-right":"1px solid gray"
             });
 
             $(this).append(i1);
             $(this).append(i2);
+
+            console.log(point);
             
         };
     
