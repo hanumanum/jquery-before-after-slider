@@ -1,0 +1,23 @@
+{
+  "name": "before-after-slider",
+  "version": "1.0.0",
+  "description": "before after slider ",
+  "main": "start.js",
+  "scripts": {
+    "test": "node ./node_modules/http-server/bin/http-server"
+  },
+  "keywords": [
+    "slide",
+    "before",
+    "after",
+    "comparison"
+  ],
+  "author": "a.kolyan (aka hanuman)",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}

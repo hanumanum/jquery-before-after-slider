@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Befor After Slider Demo</title>        
+    </head>
+    <body>
+        <div id="slider">
+
+        </div>
+
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="before-after-slider.js"></script>
+
+        <script>
+            var config = {
+                "width":"500px",
+                "height":"400px",
+                "firstImage":"images/IMG_6474_1.jpg",
+                "secondImage":"images/IMG_6474_2.jpg"
+            }
+            
+            $( document ).ready(function() {
+                $("#slider").hanBeforeAfterSlider(config);
+            });
+        </script>
+    </body>
+</html>
