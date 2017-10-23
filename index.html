@@ -1,26 +1,35 @@
 <html>
-    <head>
-        <title>Befor After Slider Demo</title>        
-    </head>
-    <body>
-        <div id="slider">
 
-        </div>
+<head>
+    <title>Befor After Slider Demo</title>
+    <style>
+        #slider {
+            margin-left: 100px;
+        }
+    </style>
+</head>
 
-        <script src="node_modules/jquery/dist/jquery.js"></script>
-        <script src="before-after-slider.js"></script>
+<body>
+    <div id="slider">
 
-        <script>
-            var config = {
-                "width":"700px",
-                "height":"400px",
-                "firstImage":"images/IMG_6474_1.jpg",
-                "secondImage":"images/IMG_6474_2.jpg"
-            }
-            
-            $( document ).ready(function() {
-                $("#slider").hanBeforeAfterSlider(config);
-            });
-        </script>
-    </body>
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="before-after-slider.js"></script>
+
+    <script>
+        var config = {
+            "width": "700px",
+            "height": "600px",
+            "start": "25%",
+            "firstImage": "images/IMG_6474_1.jpg",
+            "secondImage": "images/IMG_6474_2.jpg"
+        }
+
+        $(document).ready(function() {
+            $("#slider").hanBeforeAfterSlider(config);
+        });
+    </script>
+</body>
+
 </html>
