@@ -9,7 +9,7 @@ Include jquery and plugin file
 
 ```html
  <script src="node_modules/jquery/dist/jquery.js"></script>
- <script src="before-after-slider.min.js"></script>
+ <script src="jquery-before-after-slider.min.js"></script>
 ```
 
 
