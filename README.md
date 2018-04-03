@@ -2,7 +2,7 @@
 
 ![JQuery slider plugin before vs after comparison](https://raw.githubusercontent.com/hanumanum/before-after-slider/master/thumbnail.png)
 
-## Instalation
+## Installation
 
 ### Step 1
 Include jquery and plugin file
