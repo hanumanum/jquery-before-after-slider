@@ -1,4 +1,6 @@
 # JQuery slider plugin for "before vs after" comparison 
+see live example here:
+https://github.com/hanumanum/jquery-before-after-slider
 
 ![JQuery slider plugin before vs after comparison](https://raw.githubusercontent.com/hanumanum/before-after-slider/master/thumbnail.png)
 
